@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(48, 101, 104, 0.683);
+}
+
+.container {
+    background-color: #523b6f;
+    width: 50%;
+    min-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+    padding-top: 0;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow:
+}
+.h1{
+    text-align: center;
+    color: white;
+}
+
+.timer-Display{
+    width: 100%;
+    background: #8578b5;
+    padding: 40px 0;
+    font-family: "Roboto", sans-serif;
+    color: #0c0707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 35px 35px 35px 35px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -20px 26px 0px inset,
+                rgba(0, 0, 0, 0.15) 0px -33px 28px 0px inset, 
+                rgba(0, 0, 0, 0.1) 10px -79px 40px 0px inset, 
+                rgba(0, 0, 0, 0.06) 0px 3px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+                rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+                rgba(0, 0, 0, 0.09) 0px 35px 15px;
+}
+
+.laps{
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(212, 33, 33);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 85%;
+    margin: 50px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    background-color: white;
+    color: #141313;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 500px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.buttons button:hover{
+    background-color:black ;
+    color: #b20606;
+    border: 5px solid #844646;
+    padding: 10px 20px;
+    
+} 
